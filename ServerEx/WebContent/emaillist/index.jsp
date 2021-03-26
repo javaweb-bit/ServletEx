@@ -40,5 +40,9 @@
 	}
 	%>
 	
+	<p>
+		<a href="form.jsp">메일링 리스트 가입</a>
+	</p>
+	
 </body>
 </html>
