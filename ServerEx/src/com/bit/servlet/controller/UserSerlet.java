@@ -26,6 +26,10 @@ public class UserSerlet extends HttpServlet {
 			RequestDispatcher rd = 
 					req.getRequestDispatcher("/WEB-INF/views/users/joinform.jsp");
 			rd.forward(req, resp);
+		} else if ("loginform".equals(action)) {	//	a=loginform
+			RequestDispatcher rd =
+					req.getRequestDispatcher("/WEB-INF/views/users/loginform.jsp");
+			rd.forward(req, resp);
 		} else if ("joinsuccess".equals(action)) {
 			//	a=joinsuccess -> 가입 성공 화면으로 FORWARD
 			RequestDispatcher rd =
